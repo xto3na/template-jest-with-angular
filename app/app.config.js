@@ -19,6 +19,7 @@
                              * There were some problems with testing async code
                              * when jest was arguing on this issue in not related test
                              * when state is not resolved, this is here for debugging/testing purpose
+                             
                              */
                             return $q.reject(new Error('Weird error!'));
                         }
